@@ -15,7 +15,7 @@ export class Song {
   song: string;
 
   @Prop()
-  listens: string;
+  listens: number;
 
   @Prop()
   picture: string;
